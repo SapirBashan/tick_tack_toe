@@ -1,0 +1,15 @@
+.board{
+   display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: repeat(3, 4fr);
+    grid-gap: 10px;
+    width: 40%;
+    height: 40%;
+    /*makes the board center*/
+    margin: auto;
+    /*makes the board center*/
+    margin-top: 10%;
+    /*makes the board center*/
+    margin-bottom: 5%;
+
+}
